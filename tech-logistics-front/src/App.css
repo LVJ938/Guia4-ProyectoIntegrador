@@ -1,0 +1,353 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* Estilos */
+.lista-pedidos {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f4f4f9;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lista-pedidos h2 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.lista-pedidos ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.lista-pedidos li {
+	background-color: #ffffff;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lista-pedidos li strong {
+	font-weight: bold;
+}
+
+.App-header {
+	min-height: 100px;
+	height: 100px
+}
+
+/* Pedidos */
+.formulario-pedido {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-pedido h2 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	font-size: 1em;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+	width: 100%;
+	padding: 8px;
+	font-size: 1em;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.2em;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+.success-message {
+	color: green;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.error-message {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/* Clientes */
+.lista-clientes {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f4f4f9;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lista-clientes h2 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.lista-clientes ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.lista-clientes li {
+	background-color: #ffffff;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lista-clientes li strong {
+	font-weight: bold;
+}
+
+.error-message {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+.loading-message {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+/* Agregar cliente */
+.crear-cliente {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f4f4f9;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.crear-cliente h2 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.crear-cliente .form-group {
+	margin-bottom: 15px;
+}
+
+.crear-cliente label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.crear-cliente input {
+	width: 100%;
+	padding: 8px;
+	font-size: 1em;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+.crear-cliente button {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.1em;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.crear-cliente button:hover {
+	background-color: #45a049;
+}
+
+.error-message {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+.success-message {
+	color: green;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Productos */
+.lista-productos {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f4f4f9;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lista-productos h2 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.lista-productos ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.lista-productos li {
+	background-color: #ffffff;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lista-productos li strong {
+	font-weight: bold;
+}
+
+.error-message {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+.loading-message {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+/* Agregar Producto */
+.agregar-producto {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f4f4f9;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.agregar-producto h2 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.agregar-producto .form-group {
+	margin-bottom: 15px;
+}
+
+.agregar-producto label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.agregar-producto input {
+	width: 100%;
+	padding: 8px;
+	font-size: 1em;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+.agregar-producto button {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.1em;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.agregar-producto button:hover {
+	background-color: #45a049;
+}
+
+.error-message {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+.success-message {
+	color: green;
+	font-weight: bold;
+	text-align: center;
+}
